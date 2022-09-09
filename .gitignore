@@ -131,3 +131,5 @@ dmypy.json
 models/*
 !models/models_go_here.txt
 data/data_cleaned.csv
+data/glove/*
+!data/glove/glove_vectors_go_here.txt
