@@ -133,3 +133,6 @@ models/*
 data/data_cleaned.csv
 data/glove/*
 !data/glove/glove_vectors_go_here.txt
+data/tf_test
+data/tf_train
+data/old
