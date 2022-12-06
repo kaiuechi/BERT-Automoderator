@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div8UYIKT7581LYFN0"></div>
+        <div class="lime top_div" id="top_divNYULQX2N1IGWRQ8"></div>
         
         <script>
-        var top_div = d3.select('#top_div8UYIKT7581LYFN0').classed('lime top_div', true);
+        var top_div = d3.select('#top_divNYULQX2N1IGWRQ8').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Not Removed", "Removed"], [0.4923085868358612, 0.5076913833618164]);
+            var pp = new lime.PredictProba(pp_svg, ["Not Removed", "Removed"], [0.7015088796615601, 0.29849112033843994]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Not Removed", "Removed"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["outdoor", -0.07502105383726144], ["cats", 0.04721638290173095], ["indoor", -0.03791065785998886], ["proof", 0.01099045584926111], ["fire", -0.007768573028112364], ["more", 0.00027308221507017446], ["are", -7.334802168962829e-05], ["So", 6.534201084590282e-05], ["than", 8.75943784532685e-06]], 1, exp_div);
+                exp.show([["strategy", -0.07486362732505399], ["deaf", 0.060536917149916644], ["predictions", -0.04853192525303736], ["importance", -0.03584645196670078], ["convince", 0.03206166504767155], ["people", 0.025847033964837483], ["think", -0.024490790862558384], ["increasingly", -0.024081727881507937], ["repetition", -0.021437205671117347], ["seem", -0.019128902251213078]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["outdoor", 41, -0.07502105383726144], ["cats", 11, 0.04721638290173095], ["cats", 49, 0.04721638290173095], ["indoor", 4, -0.03791065785998886], ["proof", 30, 0.01099045584926111], ["fire", 25, -0.007768573028112364], ["more", 20, 0.00027308221507017446], ["are", 16, -7.334802168962829e-05], ["So", 0, 6.534201084590282e-05], ["than", 36, 8.75943784532685e-06]], 1, "So, indoor cats are more fire-proof than outdoor cats?", raw_div, true);
+            exp.show_raw_text([["strategy", 197, -0.07486362732505399], ["strategy", 274, -0.07486362732505399], ["deaf", 107, 0.060536917149916644], ["predictions", 56, -0.04853192525303736], ["importance", 232, -0.03584645196670078], ["convince", 209, 0.03206166504767155], ["people", 100, 0.025847033964837483], ["people", 218, 0.025847033964837483], ["think", 7, -0.024490790862558384], ["think", 251, -0.024490790862558384], ["increasingly", 31, -0.024081727881507937], ["repetition", 17, -0.021437205671117347], ["seem", 169, -0.019128902251213078]], 1, "do you think the repetition of increasingly apocalyptic predictions over the last 20 years has made people deaf to the dangers of climate change? why does fearmongering seem to be the only lasting strategy to convince people of the importance? do you think there's a better strategy?", raw_div, true);
             
         </script>
         </body></html>

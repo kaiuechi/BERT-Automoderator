@@ -28,7 +28,7 @@ The length and content can vary greatly from one comment to the next.
 
 The graph below visualizes the dataset's label distribution.
 
-![](./images/d1b.png)
+![](./images/d1b.PNG)
 
 
 ## Data Preprocessing
@@ -75,7 +75,7 @@ However, as the next section will discuss, the speed of this final model is a li
 
 The graphs below show the scores of the models for various metrics. The final model's scores are highlighted in red.
 
-![](./images/c1a.png)
+![](./images/c1a.PNG)
 
 ### Model Speed
 
@@ -94,7 +94,7 @@ Therefore, the next best model (LSTM + Word2Vec) is used in its place for the fo
 
 The graph below visualizes this difference in speed between the models.
 
-![](./images/c2b.png)
+![](./images/c2c.PNG)
 
 ### Model Explanation
 
@@ -108,7 +108,7 @@ Because the model is trained on comments filtered by the current moderation syst
 these explanations provide insight into current moderation practices. 
 Having an understanding what sort of words get comments removed could give insight on how moderation policies might be improved.
 
-![](./images/c3f.png)
+![](./images/c3f.PNG)
 
 ### Deployment Considerations
 
