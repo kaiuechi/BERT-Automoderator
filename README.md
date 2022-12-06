@@ -115,7 +115,7 @@ Having an understanding what sort of words get comments removed could give insig
 
 The following gif provides a demonstration of this model explanation in action:
 
-
+![](./images/flaskdemo.gif)
 
 ### Deployment Considerations
 
