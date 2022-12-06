@@ -94,7 +94,9 @@ Therefore, the next best model (LSTM + Word2Vec) is used in its place for the fo
 
 The graph below visualizes this difference in speed between the models.
 
+
 ![](./images/c2c.PNG)
+
 
 ### Model Explanation
 
@@ -109,6 +111,11 @@ these explanations provide insight into current moderation practices.
 Having an understanding what sort of words get comments removed could give insight on how moderation policies might be improved.
 
 ![](./images/c3f.PNG)
+
+
+The following gif provides a demonstration of this model explanation in action:
+
+
 
 ### Deployment Considerations
 
